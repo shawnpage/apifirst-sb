@@ -51,10 +51,8 @@ get:
             email: 'user@example.com'
     '403':
       description: Forbidden
-      $ref: ../components/responses/Problem.yaml
     '404':
       description: User not found
-      $ref: ../components/responses/Problem.yaml
 put:
   tags:
     - User
@@ -91,10 +89,8 @@ put:
             message: OK
     '400':
       description: Invalid username supplied
-      $ref: ../components/responses/Problem.yaml
     '404':
       description: User not found
-      $ref: ../components/responses/Problem.yaml
     '405':
       description: Method not allowed
       content:
