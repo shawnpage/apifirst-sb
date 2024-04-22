@@ -24,7 +24,7 @@ info:
 externalDocs:
   description: "Find out how to create a GitHub repo for your OpenAPI definition."
   url: 'https://github.com/Redocly/create-openapi-repo'
-#tags:
+tags:
 #  - name: Echo
 #    description: "Example echo operations."
  - name: User
